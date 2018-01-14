@@ -445,13 +445,8 @@ public class NonLatticeProcessorBottomUp {
 	public static void main(String[] args) throws FileNotFoundException {
 		long startTime = System.currentTimeMillis();
 		
-//		NonLatticeProcessorBottomUpClosure cp = getInstance(
-//		"concepts.txt",
-//		"relations.txt",
-//		"is-a");
-		
 		NonLatticeProcessorBottomUp cp = getInstance(
-		"labels.txt",
+		"concepts.txt",
 		"hierarchy.txt",
 		"");
 
